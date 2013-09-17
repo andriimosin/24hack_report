@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>24Hack</title>
+  <meta name="Description" content="Ежегодный хакатон 24Hack">
+
+  <meta name="Keywords" content="Hachathon, хакатон, 24hack">
+
+
+  <meta property="og:image" content="http://24hack.org/images/screen.jpg" />
+  <meta property="og:url" content="http://24hack.org" />
+
+  <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+  <script type="text/javascript" src="js/jquery.vegas.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="css/index.css" />
+  <link rel="stylesheet" type="text/css" href="css/jquery.vegas.css" />
+</head>
+  <body>
+    <script>
+      $.vegas('slideshow', {
+        backgrounds:[
+          { src:'images/bg/1.jpg', fade:1000 },
+          { src:'images/bg/2.jpg', fade:1000 },
+          { src:'images/bg/3.jpg', fade:1000 },
+          { src:'images/bg/4.jpg', fade:1000 },
+          { src:'images/bg/5.jpg', fade:1000 },
+          { src:'images/bg/6.jpg', fade:1000 }
+        ]
+      })('overlay', {
+        src:'overlays/11.png'
+      });
+    </script>
+
+    <div style="color:white;">
+
+      <div style="width:270px;margin-top:310px;margin-left:50px;color: white;float:left;">
+        <h1>24Hack 20013</h1>
+        <h2>Checkout report here</h2>
+        <h3>Sociality:</h3>
+        <div>
+          <a href='https://www.facebook.com/24Hack' target="blank"><img src='images/fb.png'></a>
+          <a href='http://vk.com/24hack' target="blank"><img src='images/vk.png'></a>
+          <a href='https://twitter.com/24hackathon' target="blank"><img src='images/twitter.png'></a>
+          <a href='https://plus.google.com/events/ckg21phgsujjru1lc2s4gos07fk' target="blank"><img src='images/google_plus.png'></a>
+          <h4>24hackathon@gmail.com</h4>
+        </div>
+      </div>
+
+      <div style="margin-left:320px;padding-top:400px;width:200px;">
+        <img src="images/arrow-1.png">
+        <div class="actions" style="margin-top:25px;margin-left:50px;">
+          <a href="report.html" class="btn btn-large btn-block btn-primary" style="font-size:30px;padding:15px 100px 15px 100px; background-color:#ff6666;">REPORT</a>
+        </div>
+      </div>
+
+  </div>
+  </body>
+</html>
